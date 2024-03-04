@@ -21,5 +21,15 @@ namespace CMP1903_A1_2324
             }
         }
 
+        //Method to roll all three dice, sum their values and report the total
+        public int RollDice()
+        {
+            int total = 0;
+            foreach (Die die in dice)
+            {
+                total += die.Roll();
+            }
+        }
+
     }
 }
