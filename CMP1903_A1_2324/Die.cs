@@ -21,10 +21,11 @@ namespace CMP1903_A1_2324
             Roll(); //Roll the die when it's created 
         }
 
+        //Method to roll the die 
+        public int Roll()
+        {
 
-        
-        //Method
-
+        }
 
     }
 }
