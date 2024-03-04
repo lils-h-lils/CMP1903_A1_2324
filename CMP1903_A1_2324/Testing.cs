@@ -9,14 +9,8 @@ namespace CMP1903_A1_2324
 {
     internal class Testing
     {
-        public static void Main(string[] args)
-        {
-            TestDie();
-            TestGame();
-        }
-
         //Method to test the Die class
-        private static void TestDie()
+        public static void TestDie()
         {
             Die die = new Die();
             int rollValue = die.Roll();
@@ -25,7 +19,7 @@ namespace CMP1903_A1_2324
         }
 
         //Method to test the Game class
-        private static void TestGame()
+        public static void TestGame()
         {
             Game game = new Game();
             int total = game.RollDice();
