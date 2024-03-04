@@ -15,17 +15,14 @@ namespace CMP1903_A1_2324
         private Random random;
 
         //Constructor 
-        public Die() 
+        public Die()
+        {
+            random = new Random();
+            Roll(); //Roll the die when it's created 
+        }
 
 
-        /*
-         * The Die class should contain one property to hold the current die value,
-         * and one method that rolls the die, returns and integer and takes no parameters.
-         */
-
-        //Property
-
-        // test push 2
+        
         //Method
 
 
