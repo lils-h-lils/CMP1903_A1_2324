@@ -24,7 +24,9 @@ namespace CMP1903_A1_2324
         //Method to roll the die 
         public int Roll()
         {
-
+            //Generate a random number between 1 and 6 (inclusive)
+            FaceValue = random.Next(1, 7);
+            return FaceValue;
         }
 
     }
