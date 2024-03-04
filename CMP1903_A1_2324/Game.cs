@@ -29,6 +29,8 @@ namespace CMP1903_A1_2324
             {
                 total += die.Roll();
             }
+            Console.WriteLine($"Total of the three dice rolls: {total}");
+            return total;
         }
 
     }
