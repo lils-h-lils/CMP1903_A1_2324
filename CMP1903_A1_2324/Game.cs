@@ -11,5 +11,15 @@ namespace CMP1903_A1_2324
         //Contains an array of Die objects to represent the three dice.
         private Die[] dice;
 
+        //Constructor
+        public Game()
+        {
+            dice = new Die[3];
+            for (int i=0; i<3; i++) 
+            {
+                dice[i] = new Die();
+            }
+        }
+
     }
 }
