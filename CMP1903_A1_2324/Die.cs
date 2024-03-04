@@ -14,6 +14,9 @@ namespace CMP1903_A1_2324
         //Random number generator 
         private Random random;
 
+        //Constructor 
+        public Die() 
+
 
         /*
          * The Die class should contain one property to hold the current die value,
