@@ -5,9 +5,14 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace CMP1903_A1_2324
-{
+{   /// <summary>
+    /// Tests the functionality of the 'Game','Die' and 'Testing' class
+    /// </summary>
     internal class Program
-    {
+    {   /// <summary>
+        /// Entry point of the program
+        /// </summary>
+        /// <param name="args">Command Line arguments.</param>
         static void Main(string[] args)
         {
             //Create a Game object and call its methods 
