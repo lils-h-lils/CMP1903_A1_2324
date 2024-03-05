@@ -5,13 +5,18 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace CMP1903_A1_2324
-{
+
+{   /// <summary>
+    /// Shows a game with three dice
+    /// </summary>
     internal class Game
     {
         //Contains an array of Die objects to represent the three dice.
         private Die[] dice;
 
-        //Constructor
+        /// <summary>
+        /// Initialises a new instance of the 'Game' class
+        /// </summary>
         public Game()
         {
             dice = new Die[3];
@@ -21,7 +26,10 @@ namespace CMP1903_A1_2324
             }
         }
 
-        //Method to roll all three dice, sum their values and report the total
+        /// <summary>
+        /// Rolls all three dice, sums their values, and reports the total.
+        /// </summary>
+        /// <returns>Total value of three dice rolls.</returns>
         public int RollDice()
         {
             int total = 0;
