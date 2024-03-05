@@ -17,6 +17,11 @@ namespace CMP1903_A1_2324
             //Create a Testing object to verify the output and operation of the other classes
             Testing.TestDie();
             Testing.TestGame();
+
+            //Waiting for the user input 
+            Console.WriteLine("Press and key to exit...");
+            Console.ReadLine();
+
         }
     }
 }
