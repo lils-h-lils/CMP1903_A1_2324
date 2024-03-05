@@ -6,10 +6,14 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace CMP1903_A1_2324
-{
+{   /// <summary>
+    /// Contains methods to test the functionality of the 'Die' and 'Game' class
+    /// </summary>
     internal class Testing
     {
-        //Method to test the Die class
+        /// <summary>
+        /// Testing the functionality of the Die class
+        /// </summary>
         public static void TestDie()
         {
             Die die = new Die();
@@ -18,7 +22,9 @@ namespace CMP1903_A1_2324
             Console.WriteLine("Die roll test passed.");
         }
 
-        //Method to test the Game class
+        /// <summary>
+        /// Testing the functionality of the 'Game' class
+        /// </summary>
         public static void TestGame()
         {
             Game game = new Game();
